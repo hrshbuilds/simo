@@ -1,0 +1,47 @@
+{
+  "teacher": {
+    "id": "teacher-demo",
+    "name": "Ms. Rao",
+    "subject": "Science"
+  },
+  "classes": [
+    {
+      "id": "class-7a",
+      "name": "Class 7A",
+      "students": [
+        {
+          "id": "student-001",
+          "name": "Aarav",
+          "marks": 82,
+          "missing_assignments": ["Lab safety reflection"]
+        },
+        {
+          "id": "student-002",
+          "name": "Diya",
+          "marks": 64,
+          "missing_assignments": []
+        },
+        {
+          "id": "student-003",
+          "name": "Kabir",
+          "marks": 48,
+          "missing_assignments": ["Lab safety reflection", "Forces worksheet"]
+        }
+      ],
+      "assignments": [
+        {
+          "title": "Forces quiz",
+          "status": "graded",
+          "average": 64,
+          "common_gap": "Distinguishing mass from weight"
+        },
+        {
+          "title": "Lab safety reflection",
+          "status": "in progress",
+          "average": null,
+          "common_gap": "Using evidence to explain a safety choice"
+        }
+      ]
+    }
+  ]
+}

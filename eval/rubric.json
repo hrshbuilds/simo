@@ -1,0 +1,19 @@
+{
+  "rubric_id": "synthetic-newton-1",
+  "title": "Synthetic Newton's second law",
+  "concepts": [
+    {"id": "force-motion", "title": "Force and motion"}
+  ],
+  "criteria": [
+    {
+      "id": "newtons-second-law",
+      "name": "Explains the relationship between force, mass, and acceleration",
+      "concept_id": "force-motion",
+      "levels": [
+        {"id": "L0", "points": 0, "descriptor": "Incorrect, unrelated, or absent"},
+        {"id": "L1", "points": 1, "descriptor": "Partly correct but missing the relationship or a key term"},
+        {"id": "L2", "points": 2, "descriptor": "Correctly states that net force equals mass times acceleration"}
+      ]
+    }
+  ]
+}
